@@ -1,0 +1,79 @@
+/* ======================== BANNER PASAR DIGITAL ======================== */
+.market-banner {
+    position: relative;
+    /* Ganti URL dengan gambar laut yang berbeda agar membedakan dari Beranda */
+    background-image: url('assets/background_laut_pasardigital.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 800px; /* Tinggi minimum agar konten terlihat */
+    padding: 50px 0;
+    padding-top: 30px;
+}
+
+.market-features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 5%;
+    margin-bottom: 40px;
+}
+
+.feature-card {
+    flex: 1;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: normal;
+}
+
+.feature-card .icon {
+    font-size: 2.5rem;
+    color: #007bff; /* Warna ikon biru */
+}
+
+/* ======================== CARA BERBELANJA ======================== */
+.how-to-shop-box {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.how-to-shop-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #214378;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.how-to-shop-box ol {
+    padding-left: 20px;
+}
+
+.how-to-shop-box ol li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+}

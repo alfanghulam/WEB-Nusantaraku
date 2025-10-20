@@ -1,0 +1,133 @@
+/* Styling Umum */
+.auth-body {
+    background-image: url('assets/background_laut_login.jpg'); /* Ganti dengan gambar laut yang menawan */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Kotak Form */
+.auth-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.logo-auth img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Form Elements */
+.auth-box form {
+    text-align: left;
+}
+
+.auth-box label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Password Visibility Toggle */
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 40px; /* Ruang untuk ikon */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+/* Tombol Masuk/Buat Akun */
+.btn-auth {
+    width: 100%;
+    padding: 12px;
+    background-color: #f0f0f0; /* Warna abu-abu sesuai desain */
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-auth:hover {
+    background-color: #ddd;
+}
+
+/* Link Footer */
+.link-footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.9rem;
+}
+
+.link-footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link-footer a:hover {
+    color: #0056b3;
+}
+
+.separator {
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.status-message {
+    padding: 10px;
+    background-color: #e6ffe6;
+    color: #33a033;
+    border: 1px solid #c2e0c2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}

@@ -1,0 +1,153 @@
+/* ======================== TATA LETAK UTAMA PROFIL ======================== */
+.profile-page {
+    padding: 40px 0;
+    min-height: 80vh;
+    background-color: #f8f8f8;
+}
+
+.profile-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #214378;
+}
+
+.profile-content {
+    display: flex;
+    gap: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* ======================== SIDEBAR NAVIGASI ======================== */
+.profile-sidebar {
+    flex: 0 0 250px; /* Lebar tetap untuk sidebar */
+    background-color: #f4f4f4;
+    border-right: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.profile-sidebar ul {
+    list-style: none;
+}
+
+.profile-sidebar ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #555;
+    transition: background-color 0.3s;
+}
+
+.profile-sidebar ul li.active,
+.profile-sidebar ul li:hover {
+    background-color: #e0f0ff;
+}
+
+.profile-sidebar ul li.active a {
+    color: #007bff;
+    font-weight: bold;
+    border-left: 4px solid #007bff;
+}
+
+/* ======================== DETAIL PROFIL ======================== */
+.profile-details-area {
+    flex: 1;
+    padding: 30px;
+}
+
+.detail-block {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.detail-block h2 {
+    color: #214378;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Formulir Styling */
+.profile-form {
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group input:disabled {
+    background-color: #eee;
+    color: #777;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Address Card Styling */
+.address-card {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 6px;
+    background: #fcfcfc;
+    margin-bottom: 20px;
+}
+
+.address-card h4 {
+    margin-bottom: 5px;
+    color: #214378;
+}
+
+.address-card p {
+    margin-bottom: 5px;
+    color: #666;
+}
